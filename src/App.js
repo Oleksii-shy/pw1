@@ -1,10 +1,11 @@
 import './App.css';
-import Comments from "./components/comments/Comments";
+import Users from "./components/users/Users";
+import Posts from "./components/posts/Posts";
 
 export default function App() {
     return (
         <div>
-            <Comments/>
+            <Users/>
         </div>
     );
 }
